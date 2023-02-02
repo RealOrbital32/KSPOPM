@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Wal",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 4.44,
+		"surfaceSize": 232,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 27553,
+		"eccentricity": 0.023,
+		"inclination": 1.9,
+		"longitudeOfAscendingNode": 40,
+		"primaryBody": "Urlum",
+		"isMoon": true,
+		"siderealPeriod": 138.25
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/walH.png",
+		"textureMap": "planets/assets/walT.png",
+		"minHeight": 222,
+		"maxHeight": 242,
+		"resolution": 600
+	}
+}

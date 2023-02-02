@@ -1,0 +1,118 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Urlum",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 20.3,
+		"surfaceSize": 1367,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 448317,
+		"eccentricity": 0.045,
+		"inclination": 0.64,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 61,
+		"primaryBody": "Kerbol (The Sun)",
+		"isMoon": false,
+		"siderealPeriod": -4.4
+	},
+	"Atmosphere": {
+		"useAtmosphereShader": true,
+		"size": 1367,
+		"fogSize": 1367,
+		"fogDensity": 1,
+		"hasShockLayer": true,
+		"atmosphereSunIntensity": 0.5,
+		"atmosphereTint": {
+			"r": 140,
+			"g": 182,
+			"b": 245,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 140,
+			"g": 182,
+			"b": 245,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/urlumG.png",
+			"capPath": "planets/assets/urlumC.png",
+			"innerCloudRadius": 0,
+			"outerCloudRadius": 1317,
+			"rotationSpeed": -4
+		}
+	},
+	"Rings": [
+		{
+			"texture": "planets/assets/urlumR.png",
+			"innerRadius": 1500,
+			"outerRadius": 1600
+		},
+		{
+			"texture": "planets/assets/urlumR.png",
+			"innerRadius": 3500,
+			"outerRadius": 3700
+		},
+		{
+			"texture": "planets/assets/urlumR.png",
+			"innerRadius": 5500,
+			"outerRadius": 5600
+		}
+	],
+	"ProcGen": {
+		"color": {
+			"r": 140,
+			"g": 182,
+			"b": 245,
+			"a": 255
+		},
+		"scale": 100
+	},
+	"Water": {
+		"size": 100,
+		"tint": {
+			"r": 140,
+			"g": 182,
+			"b": 245,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "WARNING: HIGH PRESSURE"
+				},
+				"radius": 3050
+			}
+		],
+		"visorEffects": {
+			"frostEffectVolumes": [
+				{
+					"radius": 2969
+				}
+			]
+		},
+		"interferenceVolumes": [
+			{
+				"radius": 2969
+			}
+		],
+		"fluidVolumes": [
+			{
+				"density": 10,
+				"type": "cloud",
+				"radius": 2969
+			}
+		],
+		"hazardVolumes": [
+			{
+				"type": "sandfall",
+				"radius": 2969
+			}
+		]
+	}
+}

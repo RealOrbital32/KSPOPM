@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Karen",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0.792,
+		"surfaceSize": 53,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 2457,
+		"argumentOfPeriapsis": 50,
+		"longitudeOfAscendingNode": 260,
+		"primaryBody": "Plock & Karen",
+		"isMoon": true,
+		"siderealPeriod": 16.5
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/karenH.png",
+		"textureMap": "planets/assets/karenT.png",
+		"minHeight": 43,
+		"maxHeight": 63,
+		"resolution": 600
+	}
+}

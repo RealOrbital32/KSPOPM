@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Priax",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0.756,
+		"surfaceSize": 46,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"trueAnomaly": 87,
+		"semiMajorAxis": 11727,
+		"eccentricity": 0.002,
+		"inclination": 2.5,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 40,
+		"primaryBody": "Urlum",
+		"isMoon": true,
+		"siderealPeriod": 12.15
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/priaxH.png",
+		"textureMap": "planets/assets/priaxT.png",
+		"minHeight": 36,
+		"maxHeight": 56,
+		"resolution": 600
+	}
+}

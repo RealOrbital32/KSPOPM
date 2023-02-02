@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Tekto",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 3,
+		"surfaceSize": 175,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 37355,
+		"eccentricity": 0.028,
+		"inclination": 9.4,
+		"longitudeOfAscendingNode": 55,
+		"primaryBody": "Sarnus",
+		"isMoon": true,
+		"siderealPeriod": 120.4
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/tektoH.png",
+		"textureMap": "planets/assets/tektoT.png",
+		"minHeight": 165,
+		"maxHeight": 185,
+		"resolution": 600
+	},
+	"Atmosphere": {
+		"useAtmosphereShader": true,
+		"size": 195,
+		"fogSize": 195,
+		"fogDensity": 1,
+		"hasShockLayer": true,
+		"atmosphereSunIntensity": 0.35,
+		"atmosphereTint": {
+			"r": 171,
+			"g": 217,
+			"b": 171,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 171,
+			"g": 217,
+			"b": 171,
+			"a": 255
+		}
+	},
+	"Water": {
+		"size": 175,
+		"tint": {
+			"r": 52,
+			"g": 69,
+			"b": 56,
+			"a": 255
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Thatmo",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 2.784,
+		"surfaceSize": 179,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 22300,
+		"inclination": 161.1,
+		"longitudeOfAscendingNode": 66,
+		"primaryBody": "Neidon",
+		"isMoon": true,
+		"siderealPeriod": 56.1
+	},
+	"Atmosphere": {
+		"size": 199,
+		"atmosphereSunIntensity": 0.01
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/thatmoH.png",
+		"textureMap": "planets/assets/thatmoT.png",
+		"minHeight": 169,
+		"maxHeight": 189,
+		"resolution": 600
+	}
+}

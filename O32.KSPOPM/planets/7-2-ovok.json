@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ovok",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0.024,
+		"surfaceSize": 74,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 12169,
+		"eccentricity":	0.01,
+		"inclination": 1,
+		"longitudeOfAscendingNode": 55,
+		"primaryBody": "Sarnus",
+		"isMoon": true,
+		"siderealPeriod": 4.2
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/ovokH.png",
+		"textureMap": "planets/assets/ovokT.png",
+		"minHeight": 64,
+		"maxHeight": 84,
+		"resolution": 600
+	}
+}

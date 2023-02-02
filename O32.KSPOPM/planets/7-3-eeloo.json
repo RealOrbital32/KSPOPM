@@ -1,0 +1,15 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Eeloo",
+	"starSystem": "O32.KSP",
+	"Orbit": {
+		"semiMajorAxis": 19105,
+		"eccentricity": 0.003,
+		"inclination": 2.3,
+		"argumentOfPeriapsis": 260,
+		"longitudeOfAscendingNode": 55,
+		"primaryBody": "Sarnus",
+		"isMoon": true,
+		"siderealPeriod": 8.3
+	}
+}

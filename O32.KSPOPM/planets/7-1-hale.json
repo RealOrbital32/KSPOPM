@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Hale",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0.024,
+		"surfaceSize": 37,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 10488,
+		"inclination": 1,
+		"longitudeOfAscendingNode": 55,
+		"primaryBody": "Sarnus",
+		"isMoon": true,
+		"siderealPeriod": 4.05
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/haleH.png",
+		"textureMap": "planets/assets/haleT.png",
+		"minHeight": 32,
+		"maxHeight": 42,
+		"resolution": 600
+	}
+}

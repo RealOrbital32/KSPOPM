@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Tal",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0.54,
+		"surfaceSize": 23,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 3109,
+		"inclination": 1.9,
+		"longitudeOfAscendingNode": 40,
+		"primaryBody": "Wal",
+		"isMoon": true,
+		"siderealPeriod": 8.1
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/talH.png",
+		"textureMap": "planets/assets/talT.png",
+		"minHeight": 21,
+		"maxHeight": 25,
+		"resolution": 600
+	}
+}

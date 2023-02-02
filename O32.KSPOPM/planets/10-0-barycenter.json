@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Plock & Karen",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 0,
+		"surfaceSize": 0,
+		"hasMapMarker": false,
+	},
+	"Orbit": {
+		"semiMajorAxis": 735833,
+		"eccentricity": 0.26,
+		"inclination": 6.15,
+		"argumentOfPeriapsis": 50,
+		"longitudeOfAscendingNode": 260,
+		"primaryBody": "Kerbol (The Sun)",
+		"isMoon": false,
+	}
+}

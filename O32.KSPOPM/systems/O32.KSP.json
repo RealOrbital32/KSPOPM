@@ -1,0 +1,14 @@
+{
+	"canEnterViaWarpDrive" : true,
+	"startHere" : false,
+	"coords" : {
+		"x" : [4, 1],
+		"y" : [4, 1],
+		"z" : [4, 1]
+	},
+	"vesselPosition" : {
+		"x" : 0,
+		"y" : 0,
+		"z" : 8000
+	}
+}

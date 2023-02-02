@@ -1,0 +1,113 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sarnus",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 25.7,
+		"surfaceSize": 3330,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 290798,
+		"eccentricity": 0.053,
+		"inclination": 2.02,
+		"argumentOfPeriapsis": 0,
+		"longitudeOfAscendingNode": 184,
+		"primaryBody": "Kerbol (The Sun)",
+		"isMoon": false,
+		"siderealPeriod": 4.1
+	},
+	"Atmosphere": {
+		"useAtmosphereShader": true,
+		"size": 3330,
+		"fogSize": 3330,
+		"fogDensity": 1,
+		"hasShockLayer": true,
+		"atmosphereSunIntensity": 0.5,
+		"atmosphereTint": {
+			"r": 201,
+			"g": 137,
+			"b": 95,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 201,
+			"g": 137,
+			"b": 95,
+			"a": 255
+		},
+		"clouds": {
+			"texturePath": "planets/assets/sarnusG.png",
+			"capPath": "planets/assets/sarnusC.png",
+			"innerCloudRadius": 0,
+			"outerCloudRadius": 3220,
+			"rotationSpeed": 4
+		}
+	},
+	"Rings": [
+		{
+			"texture": "planets/assets/sarnusR1.png",
+			"innerRadius": 4540,
+			"outerRadius": 5860
+		},
+		{
+			"texture": "planets/assets/sarnusR2.png",
+			"innerRadius": 6240,
+			"outerRadius": 6860
+		}
+	],
+	"ProcGen": {
+		"color": {
+			"r": 201,
+			"g": 137,
+			"b": 95,
+			"a": 255
+		},
+		"scale": 100
+	},
+	"Water": {
+		"size": 100,
+		"tint": {
+			"r": 201,
+			"g": 137,
+			"b": 95,
+			"a": 255
+		}
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"entryNotification": {
+					"displayMessage": "WARNING: HIGH PRESSURE"
+				},
+				"radius": 3050
+			}
+		],
+		"visorEffects": {
+			"frostEffectVolumes": [
+				{
+					"radius": 2969
+				}
+			]
+		},
+		"interferenceVolumes": [
+			{
+				"radius": 2969
+			}
+		],
+		"fluidVolumes": [
+			{
+				"density": 10,
+				"type": "cloud",
+				"radius": 2969
+			}
+		],
+		"hazardVolumes": [
+			{
+				"type": "sandfall",
+				"radius": 2969
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Polta",
+	"starSystem": "O32.KSP",
+	"Base": {
+		"surfaceGravity": 2.28,
+		"surfaceSize": 138,
+		"hasMapMarker": true,
+		"ambientLight": 0.5
+	},
+	"Orbit": {
+		"semiMajorAxis": 11727,
+		"eccentricity": 0.002,
+		"inclination": 2.45,
+		"argumentOfPeriapsis": 60,
+		"longitudeOfAscendingNode": 40,
+		"primaryBody": "Urlum",
+		"isMoon": true,
+		"siderealPeriod": 12.15
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/poltaH.png",
+		"textureMap": "planets/assets/poltaT.png",
+		"minHeight": 128,
+		"maxHeight": 148,
+		"resolution": 600
+	}
+}
